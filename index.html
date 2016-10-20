@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="assets/ico/favicon.png">
+
+  <title>3D Map</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <script src="assets/js/Chart.js"></script>
+
+</head>
+
+<body>
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">3D M<i class="fa fa-map-marker"></i>P</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="information.html">INFORMATION</a></li>
+          <li><a href="travelLog.html">TRAVEL LOG</a></li>
+          <li><a href="distance.html">DISTANCE</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container wb">
+    <div id="container"></div>
+    <div id="info">
+      <script src="solarSystem/three.min.js"></script>
+      <script src="solarSystem/three.js"></script>
+      <script src="solarSystem/CanvasRenderer.js"></script>
+      <script src="solarSystem/SoftwareRenderer.js"></script>
+      <script src="solarSystem/Projector.js"></script>
+      <script src="solarSystem/stats.min.js"></script>
+      <script src="solarSystem/PointsMaterial.js"></script>
+      <script src="solarSystem/DecalGeometry.js"></script>
+      <script src="solarSystem/ConvexGeometry.js"></script>
+      <script src="solarSystem/Vector3.js"></script>
+      <script src="solarSystem/TextGeometry.js"></script>
+      <script src="solarSystem/FontUtils.js"></script>
+      <script src="solarSystem.js"></script>
+    </div>
+  </div>
+
+  <!-- Information -->
+
+  <div class="container wb">
+    <div class="row centered">
+      <div class="col-lg-4">
+        <div class="brightness">
+          <a href="information.html"><img src="assets/img/information.png" width="50" height="50" alt=""></img>
+          </a>
+        </div>
+
+        <h4>INFORMATION</h4>
+        <p>Obtain information on campus facilities and the current temperature.</p>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="brightness">
+          <a href="travelLog.html"><img src="assets/img/travelLog.png" width="50" height="50" alt=""></img>
+          </a>
+        </div>
+        <h4>TRAVEL LOG</h4>
+        <p>A visual map of the visited countries.</p>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="brightness">
+          <a href="distance.html"><img src="assets/img/distance.png" width="50" height="50" alt=""></img>
+          </a>
+        </div>
+        <h4>DISTANCE</h4>
+        <p>Determine the distance between two buildings.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <!-- Footer -->
+  <div id="f">
+    <div class="container">
+      <div class="row centered">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
